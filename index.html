@@ -200,7 +200,7 @@ footer a{color:#D7DBEC}
 // Registration posts to the Agent U account API. The endpoint is provisioned
 // separately (public signup route -> Postgres on the aiproxy-saas box). Until
 // it is live this fails gracefully rather than dropping the user silently.
-const REGISTER_ENDPOINT = "https://agentu.jerrywlambert.com/api/auth/register";
+const REGISTER_ENDPOINT = "https://account.jerrywlambert.com/api/auth/register";
 const form = document.getElementById("regform");
 const msg = document.getElementById("regmsg");
 form.addEventListener("submit", async (e) => {
