@@ -170,10 +170,10 @@ footer a{color:#D7DBEC}
         <h2>Download the app</h2>
         <p class="muted" style="font-size:14px;margin-bottom:6px">Native desktop client. Sign in, mint your key, and start.</p>
         <div class="plat">
-          <a class="btn" href="https://github.com/jerrysr99/client-website/releases/download/v0.1.0/AgentU-Client-0.1.0-arm64.dmg">Download for macOS (Apple Silicon)</a>
+          <a class="btn" href="https://github.com/jerrysr99/client-website/releases/download/v0.2.0-full-v1/AgentU-Client-0.2.0-arm64.dmg">Download for macOS (Apple Silicon)</a>
           <a class="btn ghost-dark" style="color:var(--ink);border-color:var(--line)" href="#" data-dl="mac-intel">macOS (Intel)</a>
         </div>
-        <p class="note">First launch: the build is not yet notarized, so right-click the app and choose <strong>Open</strong> to get past Gatekeeper. Intel, Windows, and Linux builds are on the way.</p>
+        <p class="note">Download for Apple Silicon (Mac). Intel Macs are not supported yet.</p>
         <hr style="border:none;border-top:1px solid var(--line);margin:22px 0">
         <h3 style="color:var(--navy);font-size:15px;margin-bottom:6px">Already have the app?</h3>
         <p class="muted" style="font-size:14px">Open Settings, sign in with the account you just created, and mint a gateway key. It is stored in your OS keychain.</p>
@@ -235,7 +235,7 @@ form.addEventListener("submit", async (e) => {
 document.querySelectorAll("[data-dl]").forEach((a) => {
   a.addEventListener("click", (e) => {
     e.preventDefault();
-    alert("Signed builds are being prepared for this release. Check back shortly.");
+    alert("Intel Macs are not supported yet.");
   });
 });
 </script>
